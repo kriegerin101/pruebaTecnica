@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>PRUEBA CON JSF</title>
+</h:head>
+<h:body>
+    <h2>AÑADIR CURSO</h2>
+    <h:form>
+        <p>Activo:</p>
+        <h:selectManyCheckbox value="#{cursoBean.activo}">
+            <f:selectItem itemValue="#{cursoBean.activo}" itemLabel="Activo" />
+        </h:selectManyCheckbox>
+        <p>Profesor:</p>
+        <h:inputText value="#{cursoBean.profesor}"></h:inputText>
+        <p>Titulo:</p>
+        <h:inputText value="#{cursoBean.titulo}"></h:inputText>
+        <p>Nivel:</p>
+        <h:inputText value="#{cursoBean.nivel}"></h:inputText>
+        <p>Horas:</p>
+        <h:inputText value="#{cursoBean.horas}"></h:inputText>
+        <br></br><br></br>
+        <h:commandButton value="Añadir" action="#{selecCursosController.grabarDatosCursos}"/>
+    </h:form>
+</h:body>
+</html>

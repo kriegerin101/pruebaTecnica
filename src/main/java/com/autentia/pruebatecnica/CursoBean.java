@@ -1,6 +1,12 @@
 package com.autentia.pruebatecnica;
 
-public class pojo {
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import java.io.Serializable;
+
+@ManagedBean
+@SessionScoped
+public class CursoBean implements Serializable{
     private int id;
     private char activo;
     private String profesor;
