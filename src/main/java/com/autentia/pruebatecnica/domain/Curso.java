@@ -1,12 +1,21 @@
-package com.autentia.pruebatecnica;
+package com.autentia.pruebatecnica.domain;
 
 public class Curso {
     private int id;
-    private char activo;
+    private boolean activo;
     private String profesor;
     private String titulo;
     private String nivel;
     private int horas;
+
+    public Curso(int id, boolean activo, String profesor, String titulo, String nivel, int horas) {
+        this.id = id;
+        this.activo = activo;
+        this.profesor = profesor;
+        this.titulo = titulo;
+        this.nivel = nivel;
+        this.horas = horas;
+    }
 
     public int getId() {
         return id;
@@ -16,11 +25,11 @@ public class Curso {
         this.id = id;
     }
 
-    public char getActivo() {
+    public boolean getActivo() {
         return activo;
     }
 
-    public void setActivo(char activo) {
+    public void setActivo(boolean activo) {
         this.activo = activo;
     }
 
