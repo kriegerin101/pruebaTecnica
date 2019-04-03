@@ -12,18 +12,25 @@
     <h2>AÑADIR CURSO</h2>
     <h:form>
         <p>Activo:</p>
-        <h:selectBooleanCheckbox value="#{cursoBean.curso.activo}"/>
+        <p:selectBooleanCheckbox value="#{cursoBean.curso.activo}"/>
         <p>Profesor:</p>
-        <h:inputText value="#{cursoBean.curso.profesor}"/>
+        <p:selectOneMenu  style="width:200px" value="#{cursoBean.curso.profesor}">
+            <f:selectItems  value="#{profesorBean.profesores}" var="p" itemLabel="#{p.nombre}" itemValue="#{p.id}"/>
+        </p:selectOneMenu>
         <p>Titulo:</p>
-        <h:inputText value="#{cursoBean.curso.titulo}"/>
+        <p:inputText value="#{cursoBean.curso.titulo}"/>
         <p>Nivel:</p>
-        <h:inputText value="#{cursoBean.curso.nivel}"/>
+        <p:selectOneMenu value="#{cursoBean.curso.nivel}">
+            <f:selectItem itemLabel="Básico" itemValue="Básico" />
+            <f:selectItem itemLabel="Intermedio" itemValue="Intermedio" />
+            <f:selectItem itemLabel="Avanzado" itemValue="Avanzado" />
+        </p:selectOneMenu>
         <p>Horas:</p>
-        <p:inputNumber value="#{cursoBean.curso.horas}"/>
+        <p:spinner value="#{cursoBean.curso.horas}"/>
         <br></br><br></br>
-        <h:commandButton value="Añadir" action="#{cursoBean.insertarCurso}"/>
+        <p:commandButton value="Añadir" action="#{cursoBean.insertarCurso}"/>
     </h:form>
+    <br></br><br></br>
     <a href="index.xhtml">Ver cursos</a>
 </h:body>
 </html>

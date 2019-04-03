@@ -24,10 +24,11 @@ public class CursoBean implements Serializable{
     @PostConstruct
     public void setUp(){
         curso = new Curso();
+        cursos = cursoService.getCursos();
     }
 
     public List<Curso> getCursos(){
-        return cursoService.getCursos();
+        return cursos;
     }
 
     public void setCursoService(CursoService cursoService){

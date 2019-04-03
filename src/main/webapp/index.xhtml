@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://xmlns.jcp.org/jsf/core">
+<html xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:p="http://primefaces.org/ui">
 
 <h:head>
 </h:head>
 <h:body>
     <h2>CATALOGO DE CURSOS</h2>
-    <h:dataTable value = "#{cursoBean.cursos}" var = "c">
-        <h:column>
-            <f:facet name = "header">Titulo</f:facet>
-            #{c.titulo}
-        </h:column>
+    <h:form>
+        <p:dataTable value = "#{cursoBean.cursos}" var = "c" rows="4" paginator="true"
+                     paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks}
+                     {NextPageLink} {LastPageLink} {RowsPerPageDropdown}">
+            <p:column headerText="Titulo" sortBy="#{c.titulo}">
+                <h:outputText value="#{c.titulo}" />
+            </p:column>
 
-        <h:column>
-            <f:facet name = "header">Nivel</f:facet>
-            #{c.nivel}
-        </h:column>
+            <p:column headerText="Nivel">
+                <h:outputText value="#{c.nivel}" />
+            </p:column>
 
-        <h:column>
-            <f:facet name = "header">Horas</f:facet>
-            #{c.horas}
-        </h:column>
-    </h:dataTable>
+            <p:column headerText="Horas">
+                <h:outputText value="#{c.horas}" />
+            </p:column>
+
+        </p:dataTable>
+    </h:form>
     <br></br><br></br>
     <a href="add.xhtml">Nuevo curso</a>
 </h:body>
