@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CursoRepository {
-    @Insert("INSERT INTO Curso (id, activo, profesor, titulo, nivel) VALUES (#{id},#{activo},#{profesor},#{titulo}, #{nivel})")
+    @Insert("INSERT INTO Curso (id, activo, profesor, titulo, nivel, horas) VALUES (#{id},#{activo},#{profesor},#{titulo}, #{nivel}, #{horas})")
     void addCurso (Curso curso);
 
     @Select("SELECT * FROM Curso")

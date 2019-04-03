@@ -3,7 +3,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:f="http://java.sun.com/jsf/core"
-      xmlns:h="http://java.sun.com/jsf/html">
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui">
 
 <h:head>
     <title>PRUEBA CON JSF</title>
@@ -12,20 +12,18 @@
     <h2>AÑADIR CURSO</h2>
     <h:form>
         <p>Activo:</p>
-        <h:selectManyCheckbox value="#{cursoBean.curso.activo}">
-            <f:selectItem itemValue="#{cursoBean.curso.activo}" itemLabel="Activo" />
-        </h:selectManyCheckbox>
+        <h:selectBooleanCheckbox value="#{cursoBean.curso.activo}"/>
         <p>Profesor:</p>
-        <h:inputText value="#{cursoBean.curso.profesor}"></h:inputText>
+        <h:inputText value="#{cursoBean.curso.profesor}"/>
         <p>Titulo:</p>
-        <h:inputText value="#{cursoBean.curso.titulo}"></h:inputText>
+        <h:inputText value="#{cursoBean.curso.titulo}"/>
         <p>Nivel:</p>
-        <h:inputText value="#{cursoBean.curso.nivel}"></h:inputText>
+        <h:inputText value="#{cursoBean.curso.nivel}"/>
         <p>Horas:</p>
-        <h:inputText value="#{cursoBean.curso.horas}"></h:inputText>
+        <p:inputNumber value="#{cursoBean.curso.horas}"/>
         <br></br><br></br>
         <h:commandButton value="Añadir" action="#{cursoBean.insertarCurso}"/>
     </h:form>
-    <a href="catalog.xhtml">Ver cursos</a>
+    <a href="index.xhtml">Ver cursos</a>
 </h:body>
 </html>

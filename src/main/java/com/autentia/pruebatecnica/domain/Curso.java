@@ -8,6 +8,10 @@ public class Curso {
     private String nivel;
     private int horas;
 
+    public Curso(){
+
+    }
+
     public Curso(int id, boolean activo, String profesor, String titulo, String nivel, int horas) {
         this.id = id;
         this.activo = activo;

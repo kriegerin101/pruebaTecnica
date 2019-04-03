@@ -3,6 +3,7 @@ package com.autentia.pruebatecnica.controller;
 import com.autentia.pruebatecnica.domain.Curso;
 import com.autentia.pruebatecnica.service.CursoService;
 
+import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.SessionScoped;
@@ -20,7 +21,14 @@ public class CursoBean implements Serializable{
 
     private List<Curso> cursos;
 
-    public List<Curso> getCursos(){return cursoService.getCursos();}
+    @PostConstruct
+    public void setUp(){
+        curso = new Curso();
+    }
+
+    public List<Curso> getCursos(){
+        return cursoService.getCursos();
+    }
 
     public void setCursoService(CursoService cursoService){
         this.cursoService = cursoService;
