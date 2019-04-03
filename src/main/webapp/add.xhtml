@@ -28,7 +28,9 @@
         <p>Horas:</p>
         <p:spinner value="#{cursoBean.curso.horas}"/>
         <br></br><br></br>
-        <p:commandButton value="Añadir" action="#{cursoBean.insertarCurso}"/>
+        <p:commandButton value="Añadir" action="index">
+            <f:actionListener binding="#{cursoBean.insertarCurso()}"/>
+        </p:commandButton>
     </h:form>
     <br></br><br></br>
     <a href="index.xhtml">Ver cursos</a>

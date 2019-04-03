@@ -13,12 +13,8 @@ public class ProfesorService {
     @Autowired
     ProfesorRepository profesorRepository;
 
-
     public List<Profesor> getProfesores(){
         return profesorRepository.selectProfesores();
     }
 
-    public void addProfesor(Profesor profesor){
-        profesorRepository.addProfesor(profesor);
-    }
 }

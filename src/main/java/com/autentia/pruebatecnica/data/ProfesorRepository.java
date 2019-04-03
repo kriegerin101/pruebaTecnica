@@ -10,8 +10,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ProfesorRepository {
-    @Insert("INSERT INTO Profesor (id, nombre) VALUES (#{id},#{nombre})")
-    void addProfesor (Profesor profesor);
 
     @Select("SELECT * FROM Profesor")
     List<Profesor> selectProfesores();
