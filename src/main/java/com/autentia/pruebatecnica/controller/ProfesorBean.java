@@ -47,7 +47,4 @@ public class ProfesorBean implements Serializable{
         this.profesor = profesor;
     }
 
-    public void insertarProfesor(){
-        profesorService.addProfesor(profesor);
-    }
 }

@@ -3,7 +3,6 @@ package com.autentia.pruebatecnica.data;
 import java.util.List;
 
 import com.autentia.pruebatecnica.domain.Profesor;
-import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 
 import org.springframework.stereotype.Repository;

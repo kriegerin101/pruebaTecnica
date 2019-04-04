@@ -1,25 +1,13 @@
 package com.autentia.pruebatecnica.domain;
 
 public class Curso {
+
     private int id;
     private boolean activo;
     private String profesor;
     private String titulo;
     private String nivel;
     private int horas;
-
-    public Curso(){
-
-    }
-
-    public Curso(int id, boolean activo, String profesor, String titulo, String nivel, int horas) {
-        this.id = id;
-        this.activo = activo;
-        this.profesor = profesor;
-        this.titulo = titulo;
-        this.nivel = nivel;
-        this.horas = horas;
-    }
 
     public int getId() {
         return id;
@@ -68,4 +56,5 @@ public class Curso {
     public void setHoras(int horas) {
         this.horas = horas;
     }
+
 }

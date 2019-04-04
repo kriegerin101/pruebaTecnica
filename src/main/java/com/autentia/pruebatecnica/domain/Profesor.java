@@ -1,6 +1,7 @@
 package com.autentia.pruebatecnica.domain;
 
 public class Profesor {
+
     private int id;
     private String nombre;
 
@@ -26,4 +27,5 @@ public class Profesor {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
 }
