@@ -1,11 +1,13 @@
-package controller;
+package java.com.autentia.pruebatecnica.controller;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.equalTo;
+import static org.junit.Assert.assertEquals;
 import com.autentia.pruebatecnica.controller.ProfesorBean;
 import com.autentia.pruebatecnica.domain.Profesor;
 import com.autentia.pruebatecnica.service.ProfesorService;
 import org.junit.Test;
 import static org.mockito.Mockito.*;
-import static org.junit.Assert.*;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,11 +20,11 @@ public class ProfesorBeanTest {
     public void shouldReturnATeacherList(){
         sut.setProfesorService(profesorService);
 
-        List<Profesor> emptyList = Arrays.asList();
+        List<Profesor> emptyList = Arrays.asList(new Profesor());
         when(profesorService.getProfesores()).thenReturn(emptyList);
 
         List<Profesor> expectedTeachers = sut.getProfesores();
 
-        assertEquals(emptyList, expectedTeachers);
+        assertThat(emptyList, equalTo(expectedTeachers));
     }
 }

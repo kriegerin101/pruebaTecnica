@@ -1,13 +1,14 @@
-package service;
+package java.com.autentia.pruebatecnica.service;
 
-import com.autentia.pruebatecnica.controller.CursoBean;
 import com.autentia.pruebatecnica.domain.Curso;
 import com.autentia.pruebatecnica.data.CursoRepository;
 import com.autentia.pruebatecnica.service.CursoService;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.equalTo;
 import static org.mockito.Mockito.*;
-import static org.junit.Assert.*;
 import java.util.Arrays;
 import java.util.List;
 
@@ -24,17 +25,16 @@ public class CursoServiceTest {
     @Test
     public void shouldReturnACourseList(){
 
-        List<Curso> emptyList = Arrays.asList();
+        List<Curso> emptyList = Arrays.asList(new Curso());
         when(cursoRepository.selectCursos()).thenReturn(emptyList);
 
         List<Curso> expectedCourses = sut.getCursos();
 
-        assertEquals(emptyList, expectedCourses);
-
+        assertThat(emptyList, equalTo(expectedCourses));
     }
 
     @Test
-    public void shouldAddANewCourse(){
+    public void shouldCallRepositoryToAddCourse(){
 
         Curso curso = new Curso();
 

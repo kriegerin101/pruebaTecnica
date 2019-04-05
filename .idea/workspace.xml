@@ -7,20 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53f4c9c4-a771-4132-ac07-079a3a9054e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/data/CursoRepositoryIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/data/ProfesorRepositoryIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/script.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/CursoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/CursoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/ProfesorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/ProfesorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/config/AppConfigTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/controller/CursoBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/controller/CursoBeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/controller/ProfesorBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/controller/ProfesorBeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/data/CursoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/data/CursoRepositoryIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/data/ProfesorRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/data/ProfesorRepositoryIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/domain/CursoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/domain/ProfesorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/service/CursoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/service/CursoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/service/ProfesorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/service/ProfesorServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/controller/CursoBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/controller/CursoBeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/controller/ProfesorBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/controller/ProfesorBeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/data/CursoRepositoryIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/data/ProfesorRepositoryIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/service/CursoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/service/CursoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/service/ProfesorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/service/ProfesorServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,133 +37,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/CursoBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/data/CursoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/CursoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/service/CursoServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/controller/CursoBeanTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/service/ProfesorServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/config/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/script.sql">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/data/ProfesorRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/application-test.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/ProfesorService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -219,14 +131,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/domain/Profesor.java" />
         <option value="$PROJECT_DIR$/src/main/test/data/CursoRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/data/ProfesorRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/CursoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/ProfesorService.java" />
         <option value="$PROJECT_DIR$/src/main/test/controller/ProfesorBeanTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/controller/CursoBeanTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/CursoService.java" />
         <option value="$PROJECT_DIR$/src/main/test/service/CursoServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java" />
         <option value="$PROJECT_DIR$/src/main/test/service/ProfesorServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/ProfesorService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/application-test.properties" />
       </list>
     </option>
   </component>
@@ -289,37 +203,52 @@
               <item name="catalogoDeCursos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pruebatecnica" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catalogoDeCursos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catalogoDeCursos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pruebatecnica" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catalogoDeCursos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catalogoDeCursos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="catalogoDeCursos" type="b2602c69:ProjectViewProjectNode" />
               <item name="catalogoDeCursos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="catalogoDeCursos" type="b2602c69:ProjectViewProjectNode" />
               <item name="catalogoDeCursos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="catalogoDeCursos" type="b2602c69:ProjectViewProjectNode" />
               <item name="catalogoDeCursos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pruebatecnica" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="catalogoDeCursos" type="b2602c69:ProjectViewProjectNode" />
               <item name="catalogoDeCursos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,6 +277,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.autentia.pruebatecnica.data" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -361,18 +293,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProfesorServiceTest.shouldReturnATeachersList">
-    <configuration name="CursoBeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in catalogoDeCursos">
+    <configuration name="All in catalogoDeCursos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catalogoDeCursos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="controller" />
-      <option name="MAIN_CLASS_NAME" value="controller.CursoBeanTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -381,12 +306,12 @@
       <module name="catalogoDeCursos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="java.com.autentia.pruebatecnica.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.CursoServiceTest" />
+      <option name="PACKAGE_NAME" value="java.com.autentia.pruebatecnica.service" />
+      <option name="MAIN_CLASS_NAME" value="java.com.autentia.pruebatecnica.service.CursoServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -396,12 +321,12 @@
       <module name="catalogoDeCursos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="java.com.autentia.pruebatecnica.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.CursoServiceTest" />
+      <option name="PACKAGE_NAME" value="java.com.autentia.pruebatecnica.service" />
+      <option name="MAIN_CLASS_NAME" value="java.com.autentia.pruebatecnica.service.CursoServiceTest" />
       <option name="METHOD_NAME" value="shouldAddANewCourse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -412,12 +337,12 @@
       <module name="catalogoDeCursos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="java.com.autentia.pruebatecnica.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.CursoServiceTest" />
+      <option name="PACKAGE_NAME" value="java.com.autentia.pruebatecnica.service" />
+      <option name="MAIN_CLASS_NAME" value="java.com.autentia.pruebatecnica.service.CursoServiceTest" />
       <option name="METHOD_NAME" value="shouldReturnACourseList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -428,12 +353,12 @@
       <module name="catalogoDeCursos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="java.com.autentia.pruebatecnica.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.ProfesorServiceTest" />
+      <option name="PACKAGE_NAME" value="java.com.autentia.pruebatecnica.service" />
+      <option name="MAIN_CLASS_NAME" value="java.com.autentia.pruebatecnica.service.ProfesorServiceTest" />
       <option name="METHOD_NAME" value="shouldReturnATeachersList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -515,11 +440,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in catalogoDeCursos" />
+        <item itemvalue="JUnit.CursoServiceTest.shouldReturnACourseList" />
         <item itemvalue="JUnit.ProfesorServiceTest.shouldReturnATeachersList" />
         <item itemvalue="JUnit.CursoServiceTest.shouldAddANewCourse" />
-        <item itemvalue="JUnit.CursoServiceTest.shouldReturnACourseList" />
         <item itemvalue="JUnit.CursoServiceTest" />
-        <item itemvalue="JUnit.CursoBeanTest" />
       </list>
     </recent_temporary>
   </component>
@@ -547,23 +472,11 @@
       <workItem from="1554273112876" duration="23530000" />
       <workItem from="1554359781299" duration="1850000" />
       <workItem from="1554369345532" duration="17091000" />
-      <workItem from="1554446129781" duration="5760000" />
+      <workItem from="1554446129781" duration="11209000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CursoBeanTest - 2019.04.04 at 16h 16m 56s.xml">
-      <configuration name="CursoBeanTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CursoBeanTest - 2019.04.04 at 16h 22m 32s.xml">
-      <configuration name="CursoBeanTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CursoServiceTest_shouldReturnACourseList - 2019.04.05 at 08h 46m 34s.xml">
-      <configuration name="CursoServiceTest.shouldReturnACourseList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CursoServiceTest_shouldReturnACourseList - 2019.04.05 at 08h 49m 23s.xml">
-      <configuration name="CursoServiceTest.shouldReturnACourseList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CursoServiceTest_shouldReturnACourseList - 2019.04.05 at 08h 50m 03s.xml">
       <configuration name="CursoServiceTest.shouldReturnACourseList" configurationId="JUnit" />
     </history-entry>
@@ -582,15 +495,27 @@
     <history-entry file="ProfesorServiceTest_shouldReturnATeachersList - 2019.04.05 at 10h 21m 35s.xml">
       <configuration name="ProfesorServiceTest.shouldReturnATeachersList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CursoServiceTest_shouldReturnACourseList - 2019.04.05 at 10h 59m 26s.xml">
+      <configuration name="CursoServiceTest.shouldReturnACourseList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_catalogoDeCursos - 2019.04.05 at 11h 32m 13s.xml">
+      <configuration name="All in catalogoDeCursos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_catalogoDeCursos - 2019.04.05 at 11h 32m 39s.xml">
+      <configuration name="All in catalogoDeCursos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_catalogoDeCursos - 2019.04.05 at 12h 32m 02s.xml">
+      <configuration name="All in catalogoDeCursos" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103646000" />
+    <option name="totallyTimeSpent" value="109095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4918033" visible="true" weight="0.2932761" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4918033" visible="true" weight="0.2932761" />
       <window_info id="Structure" order="1" sideWeight="0.50739956" side_tool="true" weight="0.26752505" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -600,7 +525,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.30780143" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.30780143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -727,74 +652,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/config/AppConfigTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/data/ProfesorRepositoryIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/data/CursoRepositoryIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="155" selection-start-line="18" selection-start-column="155" selection-end-line="18" selection-end-column="155" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/domain/Curso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/domain/Profesor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/controller/ProfesorBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/controller/CursoBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,46 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/service/CursoServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/CursoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/ProfesorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -884,20 +705,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/service/ProfesorServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/data/CursoRepositoryIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/data/ProfesorRepositoryIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/controller/ProfesorBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/controller/CursoBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/service/ProfesorServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/service/CursoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/service/CursoServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/domain/Curso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/resources/script.sql">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/script.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
