@@ -13,6 +13,14 @@ public class ProfesorService {
     @Autowired
     ProfesorRepository profesorRepository;
 
+    public void setProfesorRepository(ProfesorRepository profesorRepository){
+        this.profesorRepository = profesorRepository;
+    }
+
+    public ProfesorRepository getProfesorRepository(){
+        return profesorRepository;
+    }
+
     public List<Profesor> getProfesores(){
         return profesorRepository.selectProfesores();
     }

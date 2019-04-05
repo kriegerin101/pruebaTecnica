@@ -16,19 +16,17 @@ public class ProfesorBean implements Serializable{
 
     @ManagedProperty("#{profesorService}")
     private ProfesorService profesorService;
-
     private Profesor profesor;
-
-    private List<Profesor> profesores;
-
     @PostConstruct
     public void setUp(){
         profesor = new Profesor();
         profesores = profesorService.getProfesores();
     }
 
+    private List<Profesor> profesores;
+
     public List<Profesor> getProfesores(){
-        return profesores;
+        return profesorService.getProfesores();
     }
 
     public void setProfesorService(ProfesorService profesorService){
@@ -37,14 +35,6 @@ public class ProfesorBean implements Serializable{
 
     public ProfesorService getCursoService(){
         return this.profesorService;
-    }
-
-    public Profesor getProfesor() {
-        return profesor;
-    }
-
-    public void setProfesor(Profesor profesor) {
-        this.profesor = profesor;
     }
 
 }

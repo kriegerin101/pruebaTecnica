@@ -14,6 +14,14 @@ public class CursoService {
     @Autowired
     CursoRepository cursoRepository;
 
+    public void setCursoRepository(CursoRepository cursoRepository){
+        this.cursoRepository = cursoRepository;
+    }
+
+    public CursoRepository getCursoRepository(){
+        return cursoRepository;
+    }
+
     public List<Curso> getCursos(){
         return cursoRepository.selectCursos();
     }
