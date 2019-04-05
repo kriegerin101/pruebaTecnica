@@ -1,4 +1,4 @@
-package java.com.autentia.pruebatecnica.data;
+package com.autentia.pruebatecnica.data;
 
 public class ProfesorRepositoryIT {
 

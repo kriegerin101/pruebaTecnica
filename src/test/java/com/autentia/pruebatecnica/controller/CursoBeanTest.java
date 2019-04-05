@@ -1,4 +1,4 @@
-package java.com.autentia.pruebatecnica.controller;
+package com.autentia.pruebatecnica.controller;
 
 import com.autentia.pruebatecnica.controller.CursoBean;
 import com.autentia.pruebatecnica.domain.Curso;
