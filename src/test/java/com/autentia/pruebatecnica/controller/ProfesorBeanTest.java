@@ -1,9 +1,7 @@
-package java.com.autentia.pruebatecnica.controller;
+package com.autentia.pruebatecnica.controller;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
-import static org.junit.Assert.assertEquals;
-import com.autentia.pruebatecnica.controller.ProfesorBean;
 import com.autentia.pruebatecnica.domain.Profesor;
 import com.autentia.pruebatecnica.service.ProfesorService;
 import org.junit.Test;

@@ -2,11 +2,9 @@ package com.autentia.pruebatecnica.config;
 
 import javax.sql.DataSource;
 
-import com.sun.xml.internal.ws.developer.UsesJAXBContext;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.EnvironmentAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
@@ -25,12 +23,9 @@ public class AppConfig {
     @Bean
     public DataSource dataSource() {
         DriverManagerDataSource sdds = new DriverManagerDataSource();
-        //sdds.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        sdds.setDriverClassName(env.getProperty("ds.driver-class-name"));
+        sdds.setDriverClassName(env.getProperty("ds.driver.class.name"));
         sdds.setUrl(env.getProperty("ds.url"));
-        //sdds.setUsername("root");
         sdds.setUsername(env.getProperty("ds.username"));
-        //sdds.setPassword("");
         sdds.setPassword(env.getProperty("ds.password"));
         return sdds;
     }

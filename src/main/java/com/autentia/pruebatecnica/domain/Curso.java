@@ -1,10 +1,14 @@
 package com.autentia.pruebatecnica.domain;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+
+import java.util.Objects;
+
 public class Curso {
 
     private int id;
     private boolean activo;
-    private String profesor;
+    private int profesor;
     private String titulo;
     private String nivel;
     private int horas;
@@ -25,11 +29,11 @@ public class Curso {
         this.activo = activo;
     }
 
-    public String getProfesor() {
+    public int getProfesor() {
         return profesor;
     }
 
-    public void setProfesor(String profesor) {
+    public void setProfesor(int profesor) {
         this.profesor = profesor;
     }
 
@@ -56,5 +60,29 @@ public class Curso {
     public void setHoras(int horas) {
         this.horas = horas;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Curso curso = (Curso) o;
+
+        return new EqualsBuilder()
+                .append(id, curso.id)
+                .append(activo, curso.activo)
+                .append(profesor, curso.profesor)
+                .append(titulo, curso.titulo)
+                .append(nivel, curso.nivel)
+                .append(horas, curso.horas)
+                .isEquals();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, activo, profesor, titulo, nivel, horas);
+    }
+
 
 }

@@ -1,4 +1,4 @@
-package java.com.autentia.pruebatecnica.service;
+package com.autentia.pruebatecnica.service;
 
 import com.autentia.pruebatecnica.domain.Profesor;
 import com.autentia.pruebatecnica.service.ProfesorService;
@@ -29,8 +29,7 @@ public class ProfesorServiceTest {
 
         List<Profesor> expectedCourses = sut.getProfesores();
 
-        assertThat(emptyList, equalTo(expectedCourses));
-
+        assertThat(expectedCourses, equalTo(emptyList));
     }
 
 }

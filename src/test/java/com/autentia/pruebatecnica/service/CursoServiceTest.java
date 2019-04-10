@@ -1,8 +1,7 @@
-package java.com.autentia.pruebatecnica.service;
+package com.autentia.pruebatecnica.service;
 
 import com.autentia.pruebatecnica.domain.Curso;
 import com.autentia.pruebatecnica.data.CursoRepository;
-import com.autentia.pruebatecnica.service.CursoService;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -30,7 +29,7 @@ public class CursoServiceTest {
 
         List<Curso> expectedCourses = sut.getCursos();
 
-        assertThat(emptyList, equalTo(expectedCourses));
+        assertThat(expectedCourses, equalTo(emptyList));
     }
 
     @Test

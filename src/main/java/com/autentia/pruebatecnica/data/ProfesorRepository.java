@@ -12,4 +12,5 @@ public interface ProfesorRepository {
 
     @Select("SELECT * FROM Profesor")
     List<Profesor> selectProfesores();
+
 }

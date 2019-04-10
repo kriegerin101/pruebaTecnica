@@ -1,6 +1,5 @@
 package com.autentia.pruebatecnica.service;
 
-
 import com.autentia.pruebatecnica.domain.Curso;
 import com.autentia.pruebatecnica.data.CursoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,5 +28,9 @@ public class CursoService {
     public void addCurso(Curso curso){
         cursoRepository.addCurso(curso);
     }
+
+    /*public void deleteCurso(Curso curso){
+        cursoRepository.deleteCurso(curso);
+    }*/
 
 }

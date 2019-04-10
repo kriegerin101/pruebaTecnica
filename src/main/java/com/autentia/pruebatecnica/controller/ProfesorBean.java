@@ -3,7 +3,6 @@ package com.autentia.pruebatecnica.controller;
 import com.autentia.pruebatecnica.domain.Profesor;
 import com.autentia.pruebatecnica.service.ProfesorService;
 
-import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.SessionScoped;
@@ -16,12 +15,6 @@ public class ProfesorBean implements Serializable{
 
     @ManagedProperty("#{profesorService}")
     private ProfesorService profesorService;
-    private Profesor profesor;
-    @PostConstruct
-    public void setUp(){
-        profesor = new Profesor();
-        profesores = profesorService.getProfesores();
-    }
 
     private List<Profesor> profesores;
 
@@ -33,7 +26,7 @@ public class ProfesorBean implements Serializable{
         this.profesorService = profesorService;
     }
 
-    public ProfesorService getCursoService(){
+    public ProfesorService getProfesorService(){
         return this.profesorService;
     }
 

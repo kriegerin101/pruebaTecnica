@@ -26,25 +26,24 @@ public class CursoBean implements Serializable{
         curso = new Curso();
         cursos = cursoService.getCursos();
     }
-
-    public List<Curso> getCursos(){
-        return cursos;
-    }
-
-    public void setCursoService(CursoService cursoService){
-        this.cursoService = cursoService;
-    }
-
-    public CursoService getCursoService(){
-        return this.cursoService;
-    }
-
     public Curso getCurso() {
         return curso;
     }
 
     public void setCurso(Curso curso) {
         this.curso = curso;
+    }
+
+    public List<Curso> getCursos(){
+        return cursos;
+    }
+
+    public CursoService getCursoService(){
+        return this.cursoService;
+    }
+
+    public void setCursoService(CursoService cursoService){
+        this.cursoService = cursoService;
     }
 
     public void insertarCurso(){

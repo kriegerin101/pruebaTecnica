@@ -1,13 +1,11 @@
 package com.autentia.pruebatecnica.controller;
 
-import com.autentia.pruebatecnica.controller.CursoBean;
 import com.autentia.pruebatecnica.domain.Curso;
 import com.autentia.pruebatecnica.service.CursoService;
 import org.junit.Before;
 import org.junit.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
-import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 import java.util.Arrays;
 import java.util.List;
@@ -31,18 +29,28 @@ public class CursoBeanTest {
 
         List<Curso> expectedCourses = sut.getCursos();
 
-        assertThat(emptyList, equalTo(expectedCourses));
+        assertThat(expectedCourses, equalTo(emptyList));
     }
-
 
     @Test
     public void shouldPassCourseToServiceToAdd(){
+
         Curso curso = new Curso();
         sut.setCurso(curso);
 
         sut.insertarCurso();
 
         verify(cursoService).addCurso(curso);
+    }
 
+    @Test
+    public void shouldPassCourseToServiceToDelete(){
+
+        Curso curso = new Curso();
+        sut.setCurso(curso);
+
+        //sut.borrarCurso();
+
+        //verify(cursoService).deleteCurso(curso);
     }
 }
