@@ -16,9 +16,9 @@ public interface CursoRepository {
     void addCurso (Curso curso);
 
     @Select("SELECT * FROM Curso WHERE activo=true")
-    @Delete("DELETE * FROM Curso WHERE id = (#{id})")
     List<Curso> selectCursos();
 
-
+    @Delete("DELETE FROM Curso WHERE #{id}=id")
+    void deleteCurso(Curso curso);
 
 }

@@ -43,4 +43,15 @@ public class CursoServiceTest {
 
     }
 
+    @Test
+    public void shouldCallRepositoryToDeleteCourse(){
+
+        Curso curso = new Curso();
+
+        sut.deleteCurso(curso);
+
+        verify(cursoRepository, times(1)).deleteCurso(curso);
+
+    }
+
 }

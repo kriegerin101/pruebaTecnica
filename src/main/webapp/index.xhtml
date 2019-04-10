@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui">
+<html xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui" xmlns:f="http://java.sun.com/jsf/core">
 
 <h:head>
 </h:head>
@@ -21,6 +21,12 @@
 
             <p:column headerText="Horas">
                 <h:outputText value="#{c.horas}" />
+            </p:column>
+
+            <p:column headerText="Borrar">
+                <p:commandButton value="Borrar" action="add">
+                    <f:actionListener binding="#{cursoBean.borrarCurso(c)}"/>
+                </p:commandButton>
             </p:column>
 
         </p:dataTable>

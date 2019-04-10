@@ -12,7 +12,7 @@ import java.util.List;
 
 @ManagedBean
 @ViewScoped
-public class CursoBean implements Serializable{
+public class CursoBean implements Serializable {
 
     @ManagedProperty("#{cursoService}")
     private CursoService cursoService;
@@ -22,10 +22,11 @@ public class CursoBean implements Serializable{
     private List<Curso> cursos;
 
     @PostConstruct
-    public void setUp(){
+    public void setUp() {
         curso = new Curso();
         cursos = cursoService.getCursos();
     }
+
     public Curso getCurso() {
         return curso;
     }
@@ -34,19 +35,23 @@ public class CursoBean implements Serializable{
         this.curso = curso;
     }
 
-    public List<Curso> getCursos(){
+    public List<Curso> getCursos() {
         return cursos;
     }
 
-    public CursoService getCursoService(){
+    public CursoService getCursoService() {
         return this.cursoService;
     }
 
-    public void setCursoService(CursoService cursoService){
+    public void setCursoService(CursoService cursoService) {
         this.cursoService = cursoService;
     }
 
-    public void insertarCurso(){
+    public void insertarCurso() {
         cursoService.addCurso(curso);
+    }
+
+    public void borrarCurso(Curso c) {
+        cursoService.deleteCurso(c);
     }
 }

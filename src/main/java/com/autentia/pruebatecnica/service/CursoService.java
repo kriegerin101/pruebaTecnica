@@ -29,8 +29,8 @@ public class CursoService {
         cursoRepository.addCurso(curso);
     }
 
-    /*public void deleteCurso(Curso curso){
+    public void deleteCurso(Curso curso){
         cursoRepository.deleteCurso(curso);
-    }*/
+    }
 
 }

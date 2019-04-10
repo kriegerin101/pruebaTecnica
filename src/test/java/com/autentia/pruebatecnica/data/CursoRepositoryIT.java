@@ -25,6 +25,7 @@ public class CursoRepositoryIT {
     @Autowired
     private CursoRepository sut;
     private Curso curso = new Curso();
+    private Curso borrado = new Curso();
 
     @Before
     public void init() {
@@ -35,6 +36,13 @@ public class CursoRepositoryIT {
         curso.setNivel("Intermedio");
         curso.setHoras(30);
         curso.setProfesor(88);
+
+        borrado.setId(0);
+        borrado.setActivo(true);
+        borrado.setTitulo("prueba 2");
+        borrado.setNivel("Intermedio");
+        borrado.setHoras(1);
+        curso.setProfesor(2);
     }
 
     @Test
@@ -45,6 +53,17 @@ public class CursoRepositoryIT {
         List<Curso> actualCourses = sut.selectCursos();
 
         assertThat(curso, equalTo(actualCourses.get(actualCourses.size()-1)));
+    }
+
+    @Test
+    public void shouldDeleteACourse(){
+
+        sut.addCurso(curso);
+
+        sut.deleteCurso(curso);
+
+        List<Curso> actualCourses = sut.selectCursos();
+        assertThat(actualCourses, not(hasItem(curso)));
     }
 
     @Test

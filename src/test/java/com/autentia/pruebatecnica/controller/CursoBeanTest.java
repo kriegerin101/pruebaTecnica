@@ -47,10 +47,9 @@ public class CursoBeanTest {
     public void shouldPassCourseToServiceToDelete(){
 
         Curso curso = new Curso();
-        sut.setCurso(curso);
 
-        //sut.borrarCurso();
+        sut.borrarCurso(curso);
 
-        //verify(cursoService).deleteCurso(curso);
+        verify(cursoService).deleteCurso(curso);
     }
 }
