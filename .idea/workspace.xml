@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53f4c9c4-a771-4132-ac07-079a3a9054e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -132,8 +132,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="231">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,7 +193,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/domain/Curso.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/data/ProfesorRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/data/ProfesorRepositoryIT.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/service/ProfesorServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/autentia/pruebatecnica/controller/ProfesorBeanTest.java" />
@@ -211,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/domain/Profesor.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java" />
       </list>
     </option>
   </component>
@@ -625,7 +625,7 @@
       <workItem from="1554748592764" duration="249000" />
       <workItem from="1554830054444" duration="2383000" />
       <workItem from="1554877991754" duration="13700000" />
-      <workItem from="1554968622112" duration="5576000" />
+      <workItem from="1554968622112" duration="5680000" />
     </task>
     <servers />
   </component>
@@ -662,7 +662,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167912000" />
+    <option name="totallyTimeSpent" value="168016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -1036,8 +1036,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/autentia/pruebatecnica/controller/ProfesorBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="231">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
