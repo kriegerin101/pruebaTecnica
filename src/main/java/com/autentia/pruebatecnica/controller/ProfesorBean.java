@@ -25,9 +25,6 @@ public class ProfesorBean implements Serializable{
     public void setProfesorService(ProfesorService profesorService){
         this.profesorService = profesorService;
     }
-
-    public ProfesorService getProfesorService(){
-        return this.profesorService;
-    }
+    
 
 }
