@@ -14,7 +14,7 @@ import java.util.List;
 public class ProfesorBean implements Serializable{
 
     @ManagedProperty("#{profesorService}")
-    
+
     private ProfesorService profesorService;
 
     public List<Profesor> getProfesores(){
@@ -24,6 +24,5 @@ public class ProfesorBean implements Serializable{
     public void setProfesorService(ProfesorService profesorService){
         this.profesorService = profesorService;
     }
-
 
 }
